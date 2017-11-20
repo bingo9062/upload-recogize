@@ -1,0 +1,38 @@
+{
+  "name": "formidable",
+  "description": "A node.js module for parsing form data, especially file uploads.",
+  "homepage": "https://github.com/felixge/node-formidable",
+  "license": "MIT",
+  "version": "1.1.1",
+  "devDependencies": {
+    "findit": "^0.1.2",
+    "gently": "^0.8.0",
+    "hashish": "^0.0.4",
+    "request": "^2.11.4",
+    "ts-node": "^3.3.0",
+    "urun": "^0.0.6",
+    "utest": "^0.0.8"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "test": "node test/run.js",
+    "clean": "rm test/tmp/*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/felixge/node-formidable.git"
+  },
+  "bugs": {
+    "url": "http://github.com/felixge/node-formidable/issues"
+  },
+  "optionalDependencies": {},
+  "dependencies": {
+    "@types/node": "^8.0.53"
+  }
+}
